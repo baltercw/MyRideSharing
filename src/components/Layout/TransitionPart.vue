@@ -36,7 +36,7 @@ onMounted(async () => {
       
     if (entries[0].isIntersecting && !hasNavigated.value) {
       
-    alert("start")
+    //alert("start")
     helixRef.value?.$el?.scrollIntoView({
       behavior: 'smooth',
       block: 'center'
